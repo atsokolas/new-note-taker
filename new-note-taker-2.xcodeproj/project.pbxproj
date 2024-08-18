@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BADB49492C724C2300A11718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB49482C724C2300A11718 /* AppDelegate.swift */; };
+		BADB494B2C724C2300A11718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB494A2C724C2300A11718 /* SceneDelegate.swift */; };
+		BADB494E2C724C2300A11718 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BADB494D2C724C2300A11718 /* Base */; };
+		BADB49512C724C2300A11718 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BADB49502C724C2300A11718 /* Base */; };
+		BADB495A2C724C2300A11718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB49592C724C2300A11718 /* AppDelegate.swift */; };
+		BADB495D2C724C2300A11718 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BADB495C2C724C2300A11718 /* Base */; };
+		BADB49642C724C2300A11718 /* new-note-taker-2 Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BADB49632C724C2300A11718 /* new-note-taker-2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BADB496E2C724C2300A11718 /* new-note-taker-2 Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BADB496D2C724C2300A11718 /* new-note-taker-2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BADB49742C724C2300A11718 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BADB49302C724C2100A11718 /* Base */; };
+		BADB49752C724C2300A11718 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BADB49302C724C2100A11718 /* Base */; };
+		BADB49762C724C2300A11718 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BADB49312C724C2100A11718 /* Icon.png */; };
+		BADB49772C724C2300A11718 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BADB49312C724C2100A11718 /* Icon.png */; };
+		BADB49782C724C2300A11718 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BADB49322C724C2100A11718 /* Style.css */; };
+		BADB49792C724C2300A11718 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BADB49322C724C2100A11718 /* Style.css */; };
+		BADB497A2C724C2300A11718 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB49332C724C2100A11718 /* Script.js */; };
+		BADB497B2C724C2300A11718 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB49332C724C2100A11718 /* Script.js */; };
+		BADB497C2C724C2300A11718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB49342C724C2100A11718 /* ViewController.swift */; };
+		BADB497D2C724C2300A11718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB49342C724C2100A11718 /* ViewController.swift */; };
+		BADB497E2C724C2300A11718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADB49352C724C2300A11718 /* Assets.xcassets */; };
+		BADB497F2C724C2300A11718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADB49352C724C2300A11718 /* Assets.xcassets */; };
+		BADB49802C724C2300A11718 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB49372C724C2300A11718 /* SafariWebExtensionHandler.swift */; };
+		BADB49812C724C2300A11718 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB49372C724C2300A11718 /* SafariWebExtensionHandler.swift */; };
+		BADB49822C724C2300A11718 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BADB49392C724C2300A11718 /* _locales */; };
+		BADB49832C724C2300A11718 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BADB49392C724C2300A11718 /* _locales */; };
+		BADB49842C724C2300A11718 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BADB493A2C724C2300A11718 /* images */; };
+		BADB49852C724C2300A11718 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BADB493A2C724C2300A11718 /* images */; };
+		BADB49862C724C2300A11718 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BADB493B2C724C2300A11718 /* manifest.json */; };
+		BADB49872C724C2300A11718 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BADB493B2C724C2300A11718 /* manifest.json */; };
+		BADB49882C724C2300A11718 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB493C2C724C2300A11718 /* background.js */; };
+		BADB49892C724C2300A11718 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB493C2C724C2300A11718 /* background.js */; };
+		BADB498A2C724C2300A11718 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB493D2C724C2300A11718 /* content.js */; };
+		BADB498B2C724C2300A11718 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB493D2C724C2300A11718 /* content.js */; };
+		BADB498C2C724C2300A11718 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BADB493E2C724C2300A11718 /* popup.html */; };
+		BADB498D2C724C2300A11718 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BADB493E2C724C2300A11718 /* popup.html */; };
+		BADB498E2C724C2300A11718 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BADB493F2C724C2300A11718 /* popup.css */; };
+		BADB498F2C724C2300A11718 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BADB493F2C724C2300A11718 /* popup.css */; };
+		BADB49902C724C2300A11718 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB49402C724C2300A11718 /* popup.js */; };
+		BADB49912C724C2300A11718 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BADB49402C724C2300A11718 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BADB49652C724C2300A11718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BADB49292C724C2000A11718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BADB49622C724C2300A11718;
+			remoteInfo = "new-note-taker-2 Extension (iOS)";
+		};
+		BADB496F2C724C2300A11718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BADB49292C724C2000A11718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BADB496C2C724C2300A11718;
+			remoteInfo = "new-note-taker-2 Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BADB49972C724C2300A11718 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BADB49642C724C2300A11718 /* new-note-taker-2 Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB499E2C724C2300A11718 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BADB496E2C724C2300A11718 /* new-note-taker-2 Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BADB49302C724C2100A11718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		BADB49312C724C2100A11718 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BADB49322C724C2100A11718 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BADB49332C724C2100A11718 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BADB49342C724C2100A11718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BADB49352C724C2300A11718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BADB49372C724C2300A11718 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BADB49392C724C2300A11718 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		BADB493A2C724C2300A11718 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BADB493B2C724C2300A11718 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		BADB493C2C724C2300A11718 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		BADB493D2C724C2300A11718 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		BADB493E2C724C2300A11718 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		BADB493F2C724C2300A11718 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		BADB49402C724C2300A11718 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		BADB49452C724C2300A11718 /* new-note-taker-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new-note-taker-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB49482C724C2300A11718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BADB494A2C724C2300A11718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BADB494D2C724C2300A11718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BADB49502C724C2300A11718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BADB49522C724C2300A11718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADB49572C724C2300A11718 /* new-note-taker-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new-note-taker-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB49592C724C2300A11718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BADB495C2C724C2300A11718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BADB495E2C724C2300A11718 /* new-note-taker-2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "new-note-taker-2.entitlements"; sourceTree = "<group>"; };
+		BADB49632C724C2300A11718 /* new-note-taker-2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "new-note-taker-2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB49682C724C2300A11718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADB496D2C724C2300A11718 /* new-note-taker-2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "new-note-taker-2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB49722C724C2300A11718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADB49732C724C2300A11718 /* new-note-taker-2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "new-note-taker-2.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADB49422C724C2300A11718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB49542C724C2300A11718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB49602C724C2300A11718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB496A2C724C2300A11718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADB49282C724C2000A11718 = {
+			isa = PBXGroup;
+			children = (
+				BADB492D2C724C2100A11718 /* Shared (App) */,
+				BADB49362C724C2300A11718 /* Shared (Extension) */,
+				BADB49472C724C2300A11718 /* iOS (App) */,
+				BADB49582C724C2300A11718 /* macOS (App) */,
+				BADB49672C724C2300A11718 /* iOS (Extension) */,
+				BADB49712C724C2300A11718 /* macOS (Extension) */,
+				BADB49462C724C2300A11718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BADB492D2C724C2100A11718 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49342C724C2100A11718 /* ViewController.swift */,
+				BADB49352C724C2300A11718 /* Assets.xcassets */,
+				BADB492E2C724C2100A11718 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		BADB492E2C724C2100A11718 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BADB492F2C724C2100A11718 /* Main.html */,
+				BADB49312C724C2100A11718 /* Icon.png */,
+				BADB49322C724C2100A11718 /* Style.css */,
+				BADB49332C724C2100A11718 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BADB49362C724C2300A11718 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49372C724C2300A11718 /* SafariWebExtensionHandler.swift */,
+				BADB49382C724C2300A11718 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		BADB49382C724C2300A11718 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49392C724C2300A11718 /* _locales */,
+				BADB493A2C724C2300A11718 /* images */,
+				BADB493B2C724C2300A11718 /* manifest.json */,
+				BADB493C2C724C2300A11718 /* background.js */,
+				BADB493D2C724C2300A11718 /* content.js */,
+				BADB493E2C724C2300A11718 /* popup.html */,
+				BADB493F2C724C2300A11718 /* popup.css */,
+				BADB49402C724C2300A11718 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BADB49462C724C2300A11718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49452C724C2300A11718 /* new-note-taker-2.app */,
+				BADB49572C724C2300A11718 /* new-note-taker-2.app */,
+				BADB49632C724C2300A11718 /* new-note-taker-2 Extension.appex */,
+				BADB496D2C724C2300A11718 /* new-note-taker-2 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADB49472C724C2300A11718 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49482C724C2300A11718 /* AppDelegate.swift */,
+				BADB494A2C724C2300A11718 /* SceneDelegate.swift */,
+				BADB494C2C724C2300A11718 /* LaunchScreen.storyboard */,
+				BADB494F2C724C2300A11718 /* Main.storyboard */,
+				BADB49522C724C2300A11718 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		BADB49582C724C2300A11718 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49592C724C2300A11718 /* AppDelegate.swift */,
+				BADB495B2C724C2300A11718 /* Main.storyboard */,
+				BADB495E2C724C2300A11718 /* new-note-taker-2.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		BADB49672C724C2300A11718 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49682C724C2300A11718 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BADB49712C724C2300A11718 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BADB49722C724C2300A11718 /* Info.plist */,
+				BADB49732C724C2300A11718 /* new-note-taker-2.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADB49442C724C2300A11718 /* new-note-taker-2 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB49982C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 (iOS)" */;
+			buildPhases = (
+				BADB49412C724C2300A11718 /* Sources */,
+				BADB49422C724C2300A11718 /* Frameworks */,
+				BADB49432C724C2300A11718 /* Resources */,
+				BADB49972C724C2300A11718 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADB49662C724C2300A11718 /* PBXTargetDependency */,
+			);
+			name = "new-note-taker-2 (iOS)";
+			productName = "new-note-taker-2 (iOS)";
+			productReference = BADB49452C724C2300A11718 /* new-note-taker-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BADB49562C724C2300A11718 /* new-note-taker-2 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB499F2C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 (macOS)" */;
+			buildPhases = (
+				BADB49532C724C2300A11718 /* Sources */,
+				BADB49542C724C2300A11718 /* Frameworks */,
+				BADB49552C724C2300A11718 /* Resources */,
+				BADB499E2C724C2300A11718 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADB49702C724C2300A11718 /* PBXTargetDependency */,
+			);
+			name = "new-note-taker-2 (macOS)";
+			productName = "new-note-taker-2 (macOS)";
+			productReference = BADB49572C724C2300A11718 /* new-note-taker-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BADB49622C724C2300A11718 /* new-note-taker-2 Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB49942C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 Extension (iOS)" */;
+			buildPhases = (
+				BADB495F2C724C2300A11718 /* Sources */,
+				BADB49602C724C2300A11718 /* Frameworks */,
+				BADB49612C724C2300A11718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "new-note-taker-2 Extension (iOS)";
+			productName = "new-note-taker-2 Extension (iOS)";
+			productReference = BADB49632C724C2300A11718 /* new-note-taker-2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BADB496C2C724C2300A11718 /* new-note-taker-2 Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB499B2C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 Extension (macOS)" */;
+			buildPhases = (
+				BADB49692C724C2300A11718 /* Sources */,
+				BADB496A2C724C2300A11718 /* Frameworks */,
+				BADB496B2C724C2300A11718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "new-note-taker-2 Extension (macOS)";
+			productName = "new-note-taker-2 Extension (macOS)";
+			productReference = BADB496D2C724C2300A11718 /* new-note-taker-2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADB49292C724C2000A11718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BADB49442C724C2300A11718 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BADB49562C724C2300A11718 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BADB49622C724C2300A11718 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BADB496C2C724C2300A11718 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = BADB492C2C724C2000A11718 /* Build configuration list for PBXProject "new-note-taker-2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BADB49282C724C2000A11718;
+			productRefGroup = BADB49462C724C2300A11718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADB49442C724C2300A11718 /* new-note-taker-2 (iOS) */,
+				BADB49562C724C2300A11718 /* new-note-taker-2 (macOS) */,
+				BADB49622C724C2300A11718 /* new-note-taker-2 Extension (iOS) */,
+				BADB496C2C724C2300A11718 /* new-note-taker-2 Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADB49432C724C2300A11718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB49762C724C2300A11718 /* Icon.png in Resources */,
+				BADB494E2C724C2300A11718 /* Base in Resources */,
+				BADB49742C724C2300A11718 /* Base in Resources */,
+				BADB497A2C724C2300A11718 /* Script.js in Resources */,
+				BADB497E2C724C2300A11718 /* Assets.xcassets in Resources */,
+				BADB49512C724C2300A11718 /* Base in Resources */,
+				BADB49782C724C2300A11718 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB49552C724C2300A11718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB49772C724C2300A11718 /* Icon.png in Resources */,
+				BADB49792C724C2300A11718 /* Style.css in Resources */,
+				BADB495D2C724C2300A11718 /* Base in Resources */,
+				BADB497B2C724C2300A11718 /* Script.js in Resources */,
+				BADB497F2C724C2300A11718 /* Assets.xcassets in Resources */,
+				BADB49752C724C2300A11718 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB49612C724C2300A11718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB49882C724C2300A11718 /* background.js in Resources */,
+				BADB498E2C724C2300A11718 /* popup.css in Resources */,
+				BADB498C2C724C2300A11718 /* popup.html in Resources */,
+				BADB49842C724C2300A11718 /* images in Resources */,
+				BADB49862C724C2300A11718 /* manifest.json in Resources */,
+				BADB49822C724C2300A11718 /* _locales in Resources */,
+				BADB498A2C724C2300A11718 /* content.js in Resources */,
+				BADB49902C724C2300A11718 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB496B2C724C2300A11718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB49892C724C2300A11718 /* background.js in Resources */,
+				BADB498F2C724C2300A11718 /* popup.css in Resources */,
+				BADB498D2C724C2300A11718 /* popup.html in Resources */,
+				BADB49852C724C2300A11718 /* images in Resources */,
+				BADB49872C724C2300A11718 /* manifest.json in Resources */,
+				BADB49832C724C2300A11718 /* _locales in Resources */,
+				BADB498B2C724C2300A11718 /* content.js in Resources */,
+				BADB49912C724C2300A11718 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADB49412C724C2300A11718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB497C2C724C2300A11718 /* ViewController.swift in Sources */,
+				BADB49492C724C2300A11718 /* AppDelegate.swift in Sources */,
+				BADB494B2C724C2300A11718 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB49532C724C2300A11718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB497D2C724C2300A11718 /* ViewController.swift in Sources */,
+				BADB495A2C724C2300A11718 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB495F2C724C2300A11718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB49802C724C2300A11718 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB49692C724C2300A11718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB49812C724C2300A11718 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BADB49662C724C2300A11718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BADB49622C724C2300A11718 /* new-note-taker-2 Extension (iOS) */;
+			targetProxy = BADB49652C724C2300A11718 /* PBXContainerItemProxy */;
+		};
+		BADB49702C724C2300A11718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BADB496C2C724C2300A11718 /* new-note-taker-2 Extension (macOS) */;
+			targetProxy = BADB496F2C724C2300A11718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BADB492F2C724C2100A11718 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB49302C724C2100A11718 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BADB494C2C724C2300A11718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB494D2C724C2300A11718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BADB494F2C724C2300A11718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB49502C724C2300A11718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BADB495B2C724C2300A11718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB495C2C724C2300A11718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADB49922C724C2300A11718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BADB49932C724C2300A11718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BADB49952C724C2300A11718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2.Extension";
+				PRODUCT_NAME = "new-note-taker-2 Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BADB49962C724C2300A11718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2.Extension";
+				PRODUCT_NAME = "new-note-taker-2 Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADB49992C724C2300A11718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = I;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2";
+				PRODUCT_NAME = "new-note-taker-2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BADB499A2C724C2300A11718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = I;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2";
+				PRODUCT_NAME = "new-note-taker-2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADB499C2C724C2300A11718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/new-note-taker-2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2.Extension";
+				PRODUCT_NAME = "new-note-taker-2 Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BADB499D2C724C2300A11718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/new-note-taker-2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2.Extension";
+				PRODUCT_NAME = "new-note-taker-2 Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BADB49A02C724C2300A11718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/new-note-taker-2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2";
+				PRODUCT_NAME = "new-note-taker-2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BADB49A12C724C2300A11718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/new-note-taker-2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "new-note-taker-2";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PlanIt.new-note-taker-2";
+				PRODUCT_NAME = "new-note-taker-2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADB492C2C724C2000A11718 /* Build configuration list for PBXProject "new-note-taker-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB49922C724C2300A11718 /* Debug */,
+				BADB49932C724C2300A11718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADB49942C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB49952C724C2300A11718 /* Debug */,
+				BADB49962C724C2300A11718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADB49982C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB49992C724C2300A11718 /* Debug */,
+				BADB499A2C724C2300A11718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADB499B2C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB499C2C724C2300A11718 /* Debug */,
+				BADB499D2C724C2300A11718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADB499F2C724C2300A11718 /* Build configuration list for PBXNativeTarget "new-note-taker-2 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB49A02C724C2300A11718 /* Debug */,
+				BADB49A12C724C2300A11718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BADB49292C724C2000A11718 /* Project object */;
+}
