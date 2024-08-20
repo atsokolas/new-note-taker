@@ -199,7 +199,6 @@
 		BADB49632C724C2300A11718 /* new-note-taker-2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "new-note-taker-2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADB49682C724C2300A11718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BADB496D2C724C2300A11718 /* new-note-taker-2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "new-note-taker-2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BADB49722C724C2300A11718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BADB49732C724C2300A11718 /* new-note-taker-2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "new-note-taker-2.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -440,7 +439,6 @@
 		BADB49712C724C2300A11718 /* macOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				BADB49722C724C2300A11718 /* Info.plist */,
 				BADB49732C724C2300A11718 /* new-note-taker-2.entitlements */,
 			);
 			path = "macOS (Extension)";
