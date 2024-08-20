@@ -25,7 +25,7 @@ function uploadToGitHub(articleName, dataUrl) {
     const branch = 'main'; // or whatever branch you want to use
     const filePath = `screenshots/${articleName}.png`;
     const message = `Add screenshot for ${articleName}`;
-    const token = ''; // This should be securely managed
+    const token = './config.js'; // This should be securely managed
 
     console.log("Uploading to GitHub");
 
@@ -70,7 +70,7 @@ function loadArticles() {
     const username = 'atsokolas';
     const repo = 'note_taker';
     const branch = 'main'; // or whatever branch you want to use
-    const token = ''; // make sure to keep this secret
+    const token = './config.js'; // make sure to keep this secret
 
     fetch(`https://api.github.com/repos/${username}/${repo}/contents/screenshots?ref=${branch}`, {
         method: 'GET',
