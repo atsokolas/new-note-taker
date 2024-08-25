@@ -5,7 +5,12 @@
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.Safari.web-extension</string>
+		<dict>
+			<key>SFSafariWebExtension</key>
+			<array>
+				<string>https://api.github.com</string>
+			</array>
+		</dict>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariWebExtensionHandler</string>
 	</dict>

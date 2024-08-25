@@ -35,5 +35,8 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [
+        "storage",
+        "https://api.github.com/*"
+    ]
 }
