@@ -99,14 +99,22 @@ function loadArticles() {
 document.addEventListener('DOMContentLoaded', () => {
     const saveButton = document.getElementById('saveArticleButton');
     if (saveButton) {
-        saveButton.addEventListener('click', saveArticle);
+        console.log("Save Article button found. Adding event listener.");
+        saveButton.addEventListener('click', () => {
+            console.log("Save Article button clicked");
+            saveArticle();
+        });
     } else {
         console.log("Save Article button not found");
     }
 
     const loadButton = document.getElementById('loadArticleButton');
     if (loadButton) {
-        loadButton.addEventListener('click', loadArticles);
+        console.log("Load Article button found. Adding event listener.");
+        loadButton.addEventListener('click', () => {
+            console.log("Load Article button clicked");
+            loadArticles();
+        });
     } else {
         console.log("Load Article button not found");
     }
