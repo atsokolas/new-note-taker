@@ -25,7 +25,12 @@ function uploadToGitHub(articleName, dataUrl) {
     const branch = 'main'; // or whatever branch you want to use
     const filePath = `screenshots/${articleName}.png`;
     const message = `Add screenshot for ${articleName}`;
-    const token = './config.js'; // This should be securely managed
+    const token = localStorage.getItem('githubToken'); // Retrieve stored token
+
+    if (!token) {
+        alert("GitHub token is missing!");
+        return;
+    }
 
     console.log("Uploading to GitHub");
 
@@ -41,14 +46,18 @@ function uploadToGitHub(articleName, dataUrl) {
             branch: branch
         })
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`GitHub API responded with status ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         if (data.content) {
             console.log("Article saved successfully:", data.content);
             alert("Article saved successfully!");
         } else {
-            console.error("Error saving article:", data.message);
-            alert("Error saving article: " + data.message);
+            throw new Error("Content not returned from GitHub API");
         }
     })
     .catch(error => {
@@ -66,11 +75,15 @@ function loadArticles() {
     savedArticlesList.innerHTML = '';
     savedArticleContainer.innerHTML = '';
 
-    // Fetch the list of files from the GitHub repository
     const username = 'atsokolas';
     const repo = 'note_taker';
     const branch = 'main'; // or whatever branch you want to use
-    const token = './config.js'; // make sure to keep this secret
+    const token = localStorage.getItem('githubToken'); // Retrieve stored token
+
+    if (!token) {
+        alert("GitHub token is missing!");
+        return;
+    }
 
     fetch(`https://api.github.com/repos/${username}/${repo}/contents/screenshots?ref=${branch}`, {
         method: 'GET',

@@ -1,10 +1,19 @@
 // Function to save an article to GitHub
 function saveArticleToGitHub(articleContent) {
-    const GITHUB_TOKEN = './config.js'; // This should be securely managed
+    const GITHUB_TOKEN = localStorage.getItem('githubToken'); // Retrieve the token from localStorage
+
+    if (!GITHUB_TOKEN) {
+        alert("GitHub token is missing!");
+        return;
+    }
+
     const repoOwner = 'atsokolas';
     const repoName = 'note_taker';
     const filePath = "screenshots/saved-article.txt";  // Adjust as necessary
     const commitMessage = "Saving new article";
+
+    // Base64 encode the article content
+    const encodedContent = btoa(unescape(encodeURIComponent(articleContent)));
 
     const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
 
@@ -21,12 +30,19 @@ function saveArticleToGitHub(articleContent) {
         },
         body: JSON.stringify(requestData)
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`GitHub API responded with status ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         console.log("Successfully saved the article to GitHub:", data);
+        alert("Article saved successfully!");
     })
     .catch(error => {
         console.error("Error saving article to GitHub:", error);
+        alert("Error saving article: " + error.message);
     });
 }
 
